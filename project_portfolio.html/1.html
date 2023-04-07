@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="2.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="container">
+
+            <div class="navbar">
+                <div class="logo-container">
+                    <img src="data:image/png;base64,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" 
+                        class="logo" alt="error">
+                    <div class="logo-text">ohn Doe</div>
+                </div>
+                <div class="nav-items">
+                    <div><a href="#Projects">Projects</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="contactme">ContactMe</a></div>
+                </div>
+            </div>
+
+            <div class="hero-section"> 
+                <div class="faded-text">John Doe</div>
+                <div class="hero-section-left">
+                    <div class="hero-section-heading">H1!I'm John Doe</div>
+                    <div class="hero-section-sub-heading">I am a <span class="role"></span></div>
+                    <div class="hero-section-description">I am a software developer and here is my portfolo website. Here you will 
+                               learn about my journney as a sofware developer</div>
+                    <div class="pink-button" id="button">Hire Me</div>
+                </div>  
+                
+                <div class="hero-section-right">
+                    <div class="absolute icons icon-dots" id="dot"> 
+                        <img src="https://i.stack.imgur.com/7xpIN.png" alt="error">
+                    </div>
+                    <div class="absolute icons icon-cube" id="cube">
+                        <img src="https://media.licdn.com/dms/image/C560BAQGiZFkyGOFL5A/company-logo_200_200/0/1594889663099?e=1682553600&v=beta&t=ufJFzFJcgiitYhcSHmxTndQnRv_FdcyWVyCm0f6edQY" alt="error">
+                    </div>
+                    <div class="absolute icons icon-circle" id="circle">
+                        <img src="https://i.stack.imgur.com/kAPAl.jpg" alt="error">
+                    </div>
+                    <div class="absolute icons icon-zigzag" id="zigzag">
+                        <img src="https://media.istockphoto.com/id/501262771/vector/watercolor-blue-striped-pattern.jpg?s=612x612&w=is&k=20&c=H6eB--Q4WBSxZGt3epYB7tC1gy6wuiT9ELc7tkPoxUo=" alt="error">
+                    </div>
+                    <div class="absolute icons icon-plus" id="plus">
+                        <img src="https://media.licdn.com/dms/image/C560BAQGFT2Ctn-B0ZQ/company-logo_200_200/0/1573837853083?e=1682553600&v=beta&t=UqPoTUjcZyPTBMVvR1ot5jWa0fg_N9ldJaitMhPuPbo" alt="error">
+                    </div>
+                    <div class="user-image">
+                        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTgUJMyRLL7swYvNo3eGMOLQKNgZzpjBazK2m-VVSZwBmdVZGmt" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project-section">
+            <h2 class="page-header">Projects</h2>
+            <div class="project-container">
+                <div class="project-card" id="project1">
+
+                    <div class="project-number project-number-right">01</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img class="project-skills" src="https://t3.gstatic.com/images?q=tbn:ANd9GcSXkwDGr3rz8TtSnTOVrivQ33woUpceWnZqQYGlBoxuAknRHVOH" alt=""></img>
+                            <img class="project-skills" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd7aHasa7ZhTdCSWIMORvS9eI_nHZ78yiHjOAcR_D-CzxITpkc" alt=""></img>
+                            <img class="project-skills" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTYZmj1abRpQU5KbipJQFh40fNcHsdg_xGy_W4ZBGm7C4sq6EgO" alt=""></img>
+                            <img class="project-skills" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR8k5d5fIPszd0n0izyiVPM8LgRolI2-yTswZlD4YP4WOgfR6yt" alt=""></img>
+                            <img class="project-skills" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTBwOmMtmxkyt1XXDuivo-9Ko_KdS9gyM-F2Y8egqCA0TEt3sjk" alt=""></img>
+                            <img class="project-skills" src="https://t3.gstatic.com/images?q=tbn:ANd9GcQ3mwUrAQU2_7ktvqWMoRSg2QNwAUTSVWVA5yrNfFSvJQrK26Hy" alt=""></img>
+                            
+                        
+                        </div>
+                        <h2 class="project-heading">Tint & Orange</h2>
+                        <div class="project-sub-heading">It's a car modification company ehich provides
+                            you sheets to protect your car from scratch 
+                        </div>
+                        <div class="button-group">
+                            <button class="pink-button button-project">Read More</button>
+                            <a href="">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                                <i title="live link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" id="project2">
+                    <div class="project-number project-number-left">02</div>
+                    <div class="project-content project-content-right">
+                        <div class="project-skills-container">
+                            <img class="project-skills" src="https://t3.gstatic.com/images?q=tbn:ANd9GcSXkwDGr3rz8TtSnTOVrivQ33woUpceWnZqQYGlBoxuAknRHVOH" alt=""></img>
+                            <img class="project-skills" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd7aHasa7ZhTdCSWIMORvS9eI_nHZ78yiHjOAcR_D-CzxITpkc" alt=""></img>
+                            <img class="project-skills" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTYZmj1abRpQU5KbipJQFh40fNcHsdg_xGy_W4ZBGm7C4sq6EgO" alt=""></img>
+                            <img class="project-skills" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR8k5d5fIPszd0n0izyiVPM8LgRolI2-yTswZlD4YP4WOgfR6yt" alt=""></img>
+                            <img class="project-skills" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTBwOmMtmxkyt1XXDuivo-9Ko_KdS9gyM-F2Y8egqCA0TEt3sjk" alt=""></img>
+                            <img class="project-skills" src="https://t3.gstatic.com/images?q=tbn:ANd9GcQ3mwUrAQU2_7ktvqWMoRSg2QNwAUTSVWVA5yrNfFSvJQrK26Hy" alt=""></img>
+                            <img class="project-skills" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToEm0K2hoPfWxflV729S9MPuNKv1Mk8dOqOIfaciD5IZgOQ31W" alt=""></img>
+                        </div>
+                        <h2 class="project-heading">Breaking copyrights</h2>
+                        <div class="project-sub-heading">A platform to download copyrights free youtube music</div>
+                        <div class="button-group">
+                            <button class="pink-button button-project">Read More</button>
+                            <a href="">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                                <i title="live link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" id="project3">
+                    <div class="project-number project-number-right">03</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                           
+                            <img class="project-skills" src="https://t3.gstatic.com/images?q=tbn:ANd9GcSXkwDGr3rz8TtSnTOVrivQ33woUpceWnZqQYGlBoxuAknRHVOH" alt=""></img>
+                            <img class="project-skills" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd7aHasa7ZhTdCSWIMORvS9eI_nHZ78yiHjOAcR_D-CzxITpkc" alt=""></img>
+                            <img class="project-skills" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTYZmj1abRpQU5KbipJQFh40fNcHsdg_xGy_W4ZBGm7C4sq6EgO" alt=""></img>
+                            <img class="project-skills" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR8k5d5fIPszd0n0izyiVPM8LgRolI2-yTswZlD4YP4WOgfR6yt" alt=""></img>
+                            <img class="project-skills" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTBwOmMtmxkyt1XXDuivo-9Ko_KdS9gyM-F2Y8egqCA0TEt3sjk" alt=""></img>
+                            <img class="project-skills" src="https://t3.gstatic.com/images?q=tbn:ANd9GcQ3mwUrAQU2_7ktvqWMoRSg2QNwAUTSVWVA5yrNfFSvJQrK26Hy" alt=""></img>
+                            <img class="project-skills" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT9V5-IkX8dNlUL13hrMSmxmvReMIjzQSzKEhW6Di4iiXCZTfVU" alt=""></img>
+
+                        </div>
+                        <h2 class="project-heading">Isha Tattva</h2>
+                        <div class="project-sub-heading">A Website for interior designer to showcase her works and samples</div>
+                        <div class="button-group">
+                            <button class="pink-button button-project">Read More</button>
+                            <a href="">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                                <i title="live link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" id="project4">
+                    <div class="project-number project-number-left">04</div>
+                    <div class="project-content project-content-right">
+                        <div class="project-skills-container">
+                            <img class="project-skills" src="https://t3.gstatic.com/images?q=tbn:ANd9GcSXkwDGr3rz8TtSnTOVrivQ33woUpceWnZqQYGlBoxuAknRHVOH" alt=""></img>
+                            <img class="project-skills" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd7aHasa7ZhTdCSWIMORvS9eI_nHZ78yiHjOAcR_D-CzxITpkc" alt=""></img>
+                            <img class="project-skills" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTYZmj1abRpQU5KbipJQFh40fNcHsdg_xGy_W4ZBGm7C4sq6EgO" alt=""></img>
+                            <img class="project-skills" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR8k5d5fIPszd0n0izyiVPM8LgRolI2-yTswZlD4YP4WOgfR6yt" alt=""></img>
+                            <img class="project-skills" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTBwOmMtmxkyt1XXDuivo-9Ko_KdS9gyM-F2Y8egqCA0TEt3sjk" alt=""></img>
+                            <img class="project-skills" src="https://t3.gstatic.com/images?q=tbn:ANd9GcQ3mwUrAQU2_7ktvqWMoRSg2QNwAUTSVWVA5yrNfFSvJQrK26Hy" alt=""></img>
+                            <img class="project-skills" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQMrI96C1VaKCBL8ItX4pk-lz04KO0uMWqIUGJ7ZGjxtijB5UQZ" alt=""></img>
+                        </div>
+                        <h2 class="project-heading">Granit</h2>
+                        <div class="project-sub-heading">A architectural website to plan your building or home (Hebrew
+                            language) 
+                        </div>
+                        <div class="button-group">
+                            <button class="pink-button button-project">Read More</button>
+                            <a href="">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                                <i title="live link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skill-container container" id="skills">
+            <div class="skill-faded-text">Skills</div>
+            <div class="skill-container-left">
+                <h2 class="skill-heading">
+                    <span class="caps">M</span>e and 
+                    <br/>
+                    MyTech Stack
+                </h2>
+                <div class="skill-sub-heading">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa blanditiis repellat
+                        incidunt maxime quo pariatur fugit. Maiores, asperiores ea. Dicta ab, ut quod 
+                        natus eligendi aut illum laboriosam rerum quidem laudantium, magni blanditiis 
+                        sunt quas quia consequatur? Excepturi repellendus porro explicabo provident 
+        
+                    </p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel laudantium deserunt
+                        ipsam accusamus iure debitis dicta veniam maiores minima tenetur totam fuga
+                        accusantium sit molestiae ipsum illo nemo, ad odit nam tempore nesciunt
+                        incidunt? Adipisci fugiat nemo laborum molestias quas!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas officia dolore ex
+                         dolorum nobis corporis eius molestias enim incidunt laborum.
+                    </p>
+                </div>
+            </div>
+            <div class="skill-container-right">
+                
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQEpdozEosgJbe_H1Q_TvwxPZeHqljQ-L3rtyUuJQGWWJO4sB3U" alt="" class="blob-style">
+
+
+                <img src="https://t2.gstatic.com/images?q=tbn:ANd9GcRFilxQDEqV_A6PnVbxrGdsEqYUpWyyvZb7wnnFvMZOWSDn5p9v" alt="" class="skills-logo">
+                <img src="https://t0.gstatic.com/images?q=tbn:ANd9GcSCMZ-NH5_SrKQse8xTyE2acPScVMJu0vSSBNDbW-dhAUJ6qvQD" alt="" class="skills-logo">
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSKQZ6jPqzQK6po0Ywb-F7M4xCZjsl1E3Fztf47jTm-tru-7THD" alt="" class="skills-logo">
+                <img src="https://t3.gstatic.com/images?q=tbn:ANd9GcRQPIl05qdsyJCBR98eNFMEdPHNBefIHV2KkIqQ2qpdbcu0sKs6" alt="" class="skills-logo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHgc9LJe5dHX1UbOHsPG-j4DWYan8L4WDTmYNgCusIfsqY7tNW" alt="" class="skills-logo">
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS9TsAi1LPXI1JObIY_TjbXpTxbW4RvgFpket-5kQHB12fZIh9s" alt="" class="skills-logo">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcROrJbQ2mBusvaKd9PNpSSVfksnw3dSJFw33R8ERrAyOprtbACP" alt="" class="skills-logo">
+                <img src="https://t1.gstatic.com/images?q=tbn:ANd9GcTx8FmwzK857hic0GSzqBtdRqBbWdpBS_E0SkEbWvItNyzMpLFp" alt="" class="skills-logo">
+                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcScjK0ZSKcXaZkCIEnqIALkmOW7r7PNtkCEutK2ZEN5fBfba72y" alt="" class="skills-logo">
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSp2CdjW5qIMH-zMUkRlDDDjvGQhi4TTZIDcGAmco_QKJZPWtzn" alt="" class="skills-logo">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRTFG7SRYlaKVMCjcg579xDlgTFk84zp6ei_2y-ob_8AwPaIIhO" alt="" class="skills-logo">
+                <img src="https://t1.gstatic.com/images?q=tbn:ANd9GcT_JYhIEFbR5D6qu3wg0o77w23YmapJksejAjKcppHDFwlt7EW-" alt="" class="skills-logo">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTAWqPccImTQjqlUJn_xyCx2EFL_oPPRimpTIQqyoeHk5ItwyGt" alt="" class="skills-logo">
+                <img src="https://t3.gstatic.com/images?q=tbn:ANd9GcSmakuqAWugs_AId-BNoj7guxdqBzeTN0u45SAIWL_YGdm2fC0e" alt="" class="skills-logo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd7aHasa7ZhTdCSWIMORvS9eI_nHZ78yiHjOAcR_D-CzxITpkc" alt="" class="skills-logo">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRYsY4gxk5wncT4Mz8fHkyZm426uHj3RmQtx6Xgmn1m4TGWUm7P" alt="" class="skills-logo">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSGtumS4A3bA9qZeWzDnSErw1IO15X7wtnid41V6mZX2DS_Gfy0" alt="" class="skills-logo">
+                <img src="https://t2.gstatic.com/images?q=tbn:ANd9GcQ_5Y91aDoPXi8YEq1O_RimTUsSwBg3Ofs7voU6-JckzWgPczGG" alt="" class="skills-logo">
+                <img src="https://t2.gstatic.com/images?q=tbn:ANd9GcRniPxV1a4Lm6CzN5p1LxUKbJNqI1wy0CSdzoc5hxt4nT3bGq3m" alt="" class="skills-logo">
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRDxOrVk18M0rjPGtrmm2ccsEtavOVJfSxnujC8BB7t3TIbqWrs" alt="" class="skills-logo">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
